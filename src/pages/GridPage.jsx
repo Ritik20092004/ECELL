@@ -32,7 +32,7 @@ function GridPage() {
         </div>
 
         <div class="logo">
-          <img src='./ecell.jpg' alt='E-cell' class="image" />
+          <img src='https://media.licdn.com/dms/image/v2/C4D0BAQGSZ83BceB4vQ/company-logo_200_200/company-logo_200_200/0/1630529300738/entrepreneurship_cell_nit_allahabad_logo?e=2147483647&v=beta&t=np-v98fyE4MV4xlZBKMRp5CZS2ZcdERA_PrQWlpVQGw' alt='E-cell' class="image" />
         </div>
         
         <div class="gridlayout">
