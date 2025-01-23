@@ -1,0 +1,233 @@
+.container{
+  width: 1203px;
+  height: 385px;
+  top: 104px;
+  left: 119px;
+  margin-left: 150px;
+  margin-top: 100px;
+  border-radius: 15px;
+  border: 1px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .gradient{
+    width: 385px; 
+    height: 385px;
+    border-radius: 15px;
+    background:  linear-gradient(to bottom right, blue, pink);;
+  }
+  .logo{
+    width: 385px;
+    height: 385px;
+    border-radius: 15px;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border:1px solid black;
+  }
+  .gridlayout{
+    width: 385px;
+    height: 385px;
+    top: 104px;
+    left: 937px;
+    border-radius: 15px ;
+    margin-left: 10px;
+    opacity: 0px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  .ingrid{
+     width: 314px;
+     height: 316px;
+     gap: 0px;
+     border-radius: 15px ;
+     opacity: 0px;
+     
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr;
+     
+  }
+  .square{
+      width: 100px;
+      height: 100px;
+      border-radius: 15px;
+      background-color:rgb(0, 64, 122);
+  }
+  .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+  }
+
+ 
+  @media (max-width: 800px) {
+    .container {
+        width: 691px;
+        height: 740px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        border-radius: 15px ;
+        border: 1px solid transparent;
+        opacity: 1px;
+        margin-left: 60px;
+    }
+  
+    .gradient {
+      order: 1;
+       width: 691px;
+      height: 385px;
+      top: 105px;
+      left: 26px;
+      gap: 0px;
+      border-radius: 15px ;
+      opacity: 1px;
+      
+    }
+  
+    .logo {
+      order: 2;
+       width: 337px;
+      height: 337px;
+      top: 508px;
+      left: 26px;
+      gap: 0px;
+      border-radius: 15px ;
+      border: 1px solid black;
+      opacity: 0px;
+      margin-left: 0;
+      
+    }
+  
+    .gridlayout {
+      order: 2; 
+      width: 335px;
+      height: 337px;
+      top: 508px;
+      left: 382px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0px;
+      border-radius: 15px;
+      margin-left: 0;
+    }
+    .ingrid{
+        width: 273.22px;
+       height: 276.6px;
+       top: 539px;
+       left: 413px;
+       gap: 0px;
+       border-radius: 15px ;
+       justify-content: center;
+       align-items: center;
+       opacity: 0px;
+
+    }
+    .square{
+        width: 87.01px;
+        height: 87.53px;
+        top: 539px;
+        left: 413px;
+        gap: 0px;
+        border-radius: 15px ;
+        opacity: 0px;
+    }
+    .image{
+        height: 100%;
+        width: 60%;
+        object-fit: cover;
+    }
+  }
+  
+  
+  /* Mobile Phones */
+  @media (max-width: 500px) {
+  .container {
+    width: 250px;
+  height: 775px;
+  top: 77px;
+  left: 72px;
+  gap: 0px;
+  border-radius: 15px ;
+  border: 1px;
+  opacity: 0px;
+  
+  
+  }
+
+  .gridlayout {
+    order: 1; /* Grid at the top */
+    width: 250px;
+   height: 250px;
+    top: 77px;
+    left: 72px;
+   gap: 0px;
+   border-radius: 15px ;
+   opacity: 0px;
+   margin-bottom: 10px;
+  }
+
+  .logo {
+    order: 2; /* Logo in the middle */
+    width: 250px;
+    height: 250px;
+    top: 341px;
+    left: 72px;
+    gap: 0px;
+    border-radius: 15px ;
+    border: 1px ;
+    opacity: 0px;
+    margin-bottom: 10px;
+  }
+
+  .gradient {
+    order: 3; /* Gradient at the bottom */
+    width: 250px;
+    height: 250px;
+    top: 602px;
+    left: 72px;
+    gap: 0px;
+    border-radius: 15px ;
+    opacity: 0px;
+  }
+
+  .ingrid {
+    width: 203.9px;
+    height: 205.19px;
+     top: 99.92px;
+     left: 95.06px;
+     gap: 0px;
+     border-radius: 15px 0px 0px 0px;
+      opacity: 0px;
+
+    grid-template-columns: repeat(3, 1fr); /* Keep 3 columns */
+    gap: 5px; /* Adjust gaps */
+  }
+
+  .square {
+    width: 64.94px;
+    height: 64.94px;
+    top: 99.92px;
+    left: 95.06px;
+    gap: 0px;
+    border-radius: 15px ;
+    opacity: 0px;
+    
+  }
+  .image{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border:1px solid black;
+  }
+}
